@@ -1,0 +1,25 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 21px -10px rgba(0, 0, 0, 0.53);
+}
+
+.filters-btn__price,
+.filters-select {
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.filters-btn__price:hover,
+.filters-select:hover {
+  transition: 0.3s all;
+  background-color: rgb(204, 210, 217);
+}
